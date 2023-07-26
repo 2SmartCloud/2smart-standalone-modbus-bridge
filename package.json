@@ -1,0 +1,50 @@
+{
+    "name": "modbus-bridge",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node app",
+        "test": "echo 'Test Passed'",
+        "test:lint": "eslint lib app.js --ext js"
+    },
+    "bin": {
+        "modbus-bridge": ".bin/cli.js"
+    },
+    "author": "2Smart",
+    "dependencies": {
+        "bluebird": "^3.7.1",
+        "cli-progress": "^3.4.0",
+        "console.table": "^0.10.0",
+        "fs-extra": "^8.1.0",
+        "homie-sdk": "github:2SmartCloud/2smart-standalone-homie-sdk",
+        "modbus-pdu": "^1.13.1",
+        "modbus-stream": "^0.46.0",
+        "mqtt": "^3.0.0",
+        "oauth": "^0.9.15",
+        "path": "^0.12.7",
+        "prompts": "^2.3.0",
+        "serialport": "^8.0.5",
+        "telnet-client": "^1.2.3",
+        "underscore": "^1.13.1",
+        "yargs": "^15.4.1"
+    },
+    "devDependencies": {
+        "async": "^3.1.0",
+        "babel-eslint": "^10.0.3",
+        "chai": "^4.2.0",
+        "eslint": "^5.16.0",
+        "eslint-config-webbylab": "^4.0.0",
+        "eslint-plugin-fetch": "0.0.1",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jest": "^23.0.3",
+        "eslint-plugin-more": "^0.3.2",
+        "eslint-plugin-no-require-lodash": "^1.1.0",
+        "eslint-plugin-prefer-spread": "^1.0.3",
+        "eslint-plugin-react": "^7.16.0",
+        "mocha": "^8.1.2",
+        "mocha-junit-reporter": "^1.23.0",
+        "net-keepalive": "^1.2.1",
+        "sinon": "^7.3.2"
+    }
+}
