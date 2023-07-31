@@ -17,7 +17,7 @@
         "cli-progress": "^3.4.0",
         "console.table": "^0.10.0",
         "fs-extra": "^8.1.0",
-        "homie-sdk": "github:2SmartCloud/2smart-standalone-homie-sdk",
+        "homie-sdk": "^1.0.0",
         "modbus-pdu": "^1.13.1",
         "modbus-stream": "^0.46.0",
         "mqtt": "^3.0.0",
